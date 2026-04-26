@@ -23,7 +23,7 @@ pipeline {
         stage('Checkout Source Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Soup-Good/springboot-nexusjenkins.git'
+                    url: 'https://github.com/Soup-Good/springboot-nexus-jenkins.git'
             }
         }
 
