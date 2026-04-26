@@ -98,11 +98,11 @@ pipeline {
         }
 
         success {
-            echo 'Build successful. The JAR file was created, archived in Jenkins, and uploaded to Nexus.'
+            echo 'Build successful!'
         }
 
         failure {
-            echo 'Build failed. Check the Jenkins Console Output for the error.'
+            echo 'Build failed!'
         }
     }
 }
